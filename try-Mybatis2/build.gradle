@@ -27,12 +27,25 @@ dependencies {
 
 	implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.4'
 	
+	// postgreSQL
+	runtimeOnly 'org.postgresql:postgresql'
+	
 	// lombok
 	compileOnly 'org.projectlombok:lombok:1.18.46'
 	annotationProcessor 'org.projectlombok:lombok:1.18.46'
 	
 	testCompileOnly 'org.projectlombok:lombok:1.18.46'
 	testAnnotationProcessor 'org.projectlombok:lombok:1.18.46'
+	
+	//development
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+	
+	// config
+	annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
+	
+	// test
+	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+	
 }
 
 tasks.named('test') {

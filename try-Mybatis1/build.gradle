@@ -27,6 +27,9 @@ dependencies {
 
 	implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.4'
 	
+	// postgreSQL
+	runtimeOnly 'org.postgresql:postgresql'
+	
 	// lombok
 	compileOnly 'org.projectlombok:lombok:1.18.46'
 	annotationProcessor 'org.projectlombok:lombok:1.18.46'
