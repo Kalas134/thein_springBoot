@@ -25,10 +25,10 @@ public class CalcController {
 //	private CalcService calcService;
 	
 //	----------------
-//	C. 스프링 방식: getMethod를 이용한 서비스단 사용방식
+//	C. 스프링 방식: setMethod를 이용한 서비스단 사용방식
 //	private CalcService calcService;
 //	
-//	public void getCalc(CalcService calcService) {
+//	public void setCalc(CalcService calcService) {
 //		this.calcService = calcService;
 //	}
 	
